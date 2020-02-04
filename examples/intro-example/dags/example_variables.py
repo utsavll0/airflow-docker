@@ -30,7 +30,7 @@ dag = DAG('example_variables',
 # var3 = Variable.get("var3")
 
 ## Recommended way
-dag_config = Variable.get("example_variables_config", deserialize_json=True)
+dag_config = Variable.get("example_variables", deserialize_json=True)
 var1 = dag_config["var1"]
 var2 = dag_config["var2"]
 var3 = dag_config["var3"]
